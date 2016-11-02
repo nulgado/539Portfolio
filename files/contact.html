@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="img/favicon.png" type=image sizes="16x16">
+  <title>Nicole Ulgado - Contact</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>   <!-- The "x" -->
+     <ul>
+       <li><a href="index.html">Work</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a href="blog.html">Blog</a></li>
+     </ul>
+  </div>
+
+  <!-- Opens the sidenav -->
+  <span onclick="openNav()">&#9776;</span>
+
+  <!-- Topnav -->
+  <div id="myTopnav" class="topnav">
+     <ul>
+       <li><a href="index.html">Work</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="contact.html"><u>Contact</u></a></li>
+       <li><a href="blog.html">Blog</a></li>
+     </ul>
+  </div>
+
+  <div class="top vertically-centered">
+    <header>
+      <h2>Contact Me</h2>
+      <p>Let's talk and get to know each other, collaborate, or just say hi!<br>
+      I would love to hear from you.</p>
+      <form action="" method="get">
+          <p>Name<input name="name" type="text" placeholder="First and last name" required autofocus></p>
+          <p>Email<input name="email" type="text" placeholder="example@domain.com"></p>
+          <p>Phone<input name="phone" type="tel" placeholder="(---) --- ----"></p>
+          <p>Note &nbsp;<textarea rows="3" placeholder="Leave me a message :)"></textarea></p>
+          <input type="submit" value="Submit"/>
+      </form>
+    </header>
+    </div>
+  </div>
+
+  <footer>
+    <p>2016 &copy; Nicole Ulgado</p>
+    <div class= "social">
+      <a href="https://linkedin.com/in/nulgado"><img src="img/linkedin.png" alt="Connect with me on Linkedin" height="37" width="37"></a>
+      <a href="https://facebook.com/nicole.ulgado"><img src="img/facebook.png" alt="Connect with me on Facebook" height="36" width="36"></a>
+      <a href="https://instagram.com/bundtcakes"><img src="img/instagram.png" alt="Follow me on Instagram" height="37" width="37"></a>
+    </div>
+  </footer>
+
+  <script src="js/sidenav.js"></script>
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86173495-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

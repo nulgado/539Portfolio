@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Montserrat|Raleway:300,600');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Raleway;
+  margin: 0;
+  position: relative;
+}
+  body p {
+    font-size: 14px;
+    line-height: 29px;
+    letter-spacing: 0.7px;
+  }
+
+.full-page {
+  height: 100vh;
+}
+
+/* The side navigation menu */
+span {
+  position: absolute;
+  padding: 20px 20px;
+  color: white;
+  font-size: 24px;
+}
+ .sidenav {
+     height: 100%; /* 100% Full-height */
+     width: 0; /* 0 width - change this with JavaScript */
+     position: fixed; /* Stay in place */
+     z-index: 1; /* Stay on top */
+     top: 0;
+     left: 0;
+     background-color: rgba(83,125,198,0.93);
+     overflow-x: hidden; /* Disable horizontal scroll */
+     padding-top: 50px; /* Place content 60px from the top */
+     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+ }
+
+ /* The navigation menu links */
+ .sidenav a {
+     padding: 15px 30px 15px 30px;
+     text-decoration: none;
+     letter-spacing: 1px;
+     font-size: 15px;
+     color: #fff;
+     display: block;
+     transition: 0.3s;
+ }
+ .sidenav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ /* When you mouse over the navigation links, change their color */
+ .sidenav a:hover, .offcanvas a:focus{
+     background-color: hsl(218, 52%, 50%);
+ }
+
+ /* Position and style the close button (top right corner) */
+ .sidenav .closebtn {
+     padding: 10px 25px 10px 25px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     font-size: 36px;
+     margin-left: 50px;
+ }
+
+ #myTopnav {
+   display: none;
+ }
+
+.top {
+  color: white;
+  background-color: #6A96E0;
+}
+  .top p {
+    margin: 20px;
+  }
+
+.vertically-centered {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+.about img {
+  display: block;
+  margin: 0 auto;
+  width:95px;
+  height: auto;
+}
+  .about h2 {
+    letter-spacing: 3px;
+    line-height: 50px;
+  }
+  .about p {
+    letter-spacing: 1.5px;
+  }
+
+section h3 {
+  letter-spacing: 3px;
+  font-size: 21px;
+  color: #6A96E0;
+}
+.jump {
+  position: relative;
+  top: 70px;
+}
+.jump a {
+  text-decoration: none;
+  color: white;
+}
+.jump a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.story {
+  margin: 24px;
+  color: #595959;
+}
+  .story a {
+    text-decoration: none;
+    color: #595959;
+  }
+  .story a:hover {
+    color: #6A96E0;
+    text-decoration: bold;
+  }
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+a.work-btn, a.resume-btn, a.learn-btn {
+    display: block;
+    border-radius: 6px;
+    background-color: #6A96E0;
+    text-decoration: none;
+    padding: 7px 10px;
+    width: 140px;
+    color: white;
+    margin: auto;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  a.learn-btn {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+  }
+
+footer {
+  display: block;
+  background-color: #BFBFBF;
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  padding-bottom: 25px;
+
+}
+  footer p {
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 49%;
+    float: left;
+    position: relative;
+
+  }
+  footer .social {
+    margin-right: 24px;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+
+  }
+  footer a {
+    margin: 0px 0px 0px 10px;
+    display: inline;
+  }
+  footer a, footer a:hover, footer a:active, footer a:visited {
+    text-decoration:none;
+}
+
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+
+.projects {
+  width: 100%;
+}
+.project {
+  display: block;
+  height: 475px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+  .project .description {
+    margin: 24px;
+  }
+  .project h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px 0px 10px 0px;
+  }
+  .project .image-phone img {
+    height: 250px;
+    width: 174.33px;
+    margin-top: -15px;
+  }
+  .project .image-desktop img {
+    height: 218px;
+    width: 360px;
+    margin-top: -15px;
+  }
+  .project p {
+    margin: 4px 0px 0px 0px;
+    font-size: 13.5px;
+  }
+
+  .project .banner h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .project .banner img {
+    height: 390px;
+    width: 272px;
+  }
+  #wide-image img {
+    height: 218px;
+    width: 360px;
+  }
+
+#about.project {
+    height: 200px;
+    background-color: #6A96E0;
+}
+#about.project h3 {
+  position: relative;
+  top: 75px;
+  font-size: 28px;
+
+}
+
+#project-1 {
+  background-color: #7699D5;
+}
+  #project-1.project {
+    padding-top: 40px;
+  }
+
+#project-2 {
+  background-color: #91B9E3;
+}
+  #project-2.project {
+    padding-top: 20px;
+  }
+
+#project-3 {
+  background-color: #227DCB;
+}
+  #project-3.project {
+    padding-top: 40px;
+  }
+
+  #project-4 {
+    background-color: #22BA92;
+  }
+    #project-4.project {
+      padding-top: 20px;
+      padding-bottom: 40px;
+    }
+
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  section #lowfidelity img {
+    height: 314px;
+    width: 330px;
+  }
+  section #poster img {
+    height: 239px;
+    width: 318px;
+  }
+  section #sketches img {
+    height: 246px;
+    width: 318px;
+  }
+  section #wireframes img {
+    height: 204px;
+    width: 318px;
+  }
+
+section .wireframes {
+  display: block;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+section .wireframes img {
+  display: block;
+  height: 425px;
+  width: 296px;
+}
+
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+
+form {
+  display: block;
+  text-align: center;
+  height 90%;
+}
+  form li {
+    list-style-type: none;
+    padding: 12px;
+    text-align: right;
+  }
+  input[type=text], input[type=tel], textarea {
+    outline: none;
+    padding: 12px 15px;
+    width: 180px;
+    margin: 5px 1px 3px 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    color: gray;
+    font-family: Arial;
+  }
+  input[type=text]:focus, input[type=tel]:focus, textarea:focus {
+    box-shadow: 0 0 5px white;
+    /*padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;*/
+    border: 1px solid white;
+  }
+  input[type=submit] {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    margin: 20px;
+    padding: 8px 25px;
+    position: relative;
+    right: 30px;
+    }
+
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav a {
+      font-size: 10px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 780px) {
+    .sidenav a {
+      font-size: 16.5px;
+    }
+    .story {
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    .project h3 {
+      font-size: 20px;
+    }
+    .project p {
+      font-size: 15px;
+    }
+    .project .image-phone img {
+      height: 300px;
+      width: 209.2px;
+    }
+    .project .image-desktop img {
+      height: 300px;
+      width: 496.15px;
+    }
+    .project .banner h2 {
+      padding-top: 20px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+    .project .banner img {
+      height: 425px;
+      width: 296px;
+    }
+    #wide-image img {
+      height: 450px;
+      width: 702.88px;
+    }
+
+    .jump {
+      top: 110px;
+    }
+
+    section #lowfidelity img {
+      height: 472px;
+      width: 496.15px;
+    }
+    section #poster img {
+      height: 365px;
+      width: 486px;
+    }
+    section #sketches img {
+      height: 383px;
+      width: 495px;
+    }
+    section #wireframes img {
+      height: 312px;
+      width: 486px;
+    }
+
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+
+  input[type=text], input[type=tel], textarea {
+    width: 300px;
+  }
+
+/* Desktop */
+@media screen and (min-width: 1204px) {
+  span, #mySidenav, .sidenav {
+    display: none;
+  }
+
+  #myTopnav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 30px;
+  }
+  #myTopnav ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0 auto;
+  }
+  #myTopnav li {
+    display: inline;
+    padding: 40px;
+  }
+  #myTopnav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  #myTopnav a:hover {
+    font-weight: bold;
+  }
+
+  .about h2 {
+    font-size: 27px;
+    letter-spacing: 4px;
+    line-height: 55px;
+  }
+  .about img {
+    width:118px;
+    height: auto;
+  }
+  .about p {
+    letter-spacing: 1.5px;
+  }
+
+  body p {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+  }
+
+  .jump {
+    top: 135px;
+  }
+
+  .story {
+    text-align: left;
+    margin-left: 310px;
+    margin-right: 310px;
+  }
+    .story h3, legend {
+      letter-spacing: 4px;
+      font-size: 25px;
+      line-height: 60px;
+    }
+
+    footer a {
+      margin: 0px 20px 0px 20px;
+      display: inline-block;
+    }
+    footer a, footer a:hover, footer a:active, footer a:visited {
+      text-decoration:none;
+  }
+
+  .project {
+    height: 520px;
+  }
+
+  .project .description {
+    display: table-cell;
+    width: 50%;
+    text-align: left;
+  }
+  .description h3 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    position: relative;
+    bottom: 245px;
+    left: 100px;
+  }
+  .description p {
+    font-size: 16px;
+    margin-right: 100px;
+    position: relative;
+    bottom: 245px;
+    left: 100px;
+  }
+  .project a.learn-btn {
+    display: inline;
+    margin-right: 100px;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+  }
+  .project .image-phone {
+    display: table-cell;
+    width: 50%;
+  }
+  .project .image-phone img {
+    height: 450px;
+    width: 314px;
+    position: relative;
+    top: 35px;
+  }
+  .project .image-desktop {
+    display: table-cell;
+    width: 50%;
+  }
+  .project .image-desktop img {
+    height: 450px;
+    width: 702.88px;
+    position: relative;
+    top: 10px;
+  }
+  .project .banner h2 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .project .banner img {
+    height: 420px;
+    width: 293px;
+  }
+  #wide-image img {
+    height: 450px;
+    width: 702.88px;
+  }
+
+  #project-1.project {
+    padding-top: 60px;
+    padding-bottom: 10px;
+  }
+  #project-2.project {
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  #project-3.project {
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  #project-4.project {
+    padding-top: 80px;
+    padding-bottom: 10px;
+  }
+  section #lowfidelity img {
+    height: 777px;
+    width: 817px;
+  }
+  section #poster img {
+    height: 600px;
+    width: 800px;
+  }
+  section #sketches img {
+    height: 612px;
+    width: 790px;
+  }
+  section #wireframes img {
+    height: 513px;
+    width: 800px;
+  }
+
+.adventures {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+  .adventures img {
+    display: inline-block;
+    height: 450px;
+    width: 470px;
+  }
+
+
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+
+  input[type=text], input[type=tel], textarea {
+    width: 400px;
+  }
+
+}
