@@ -25,16 +25,16 @@ span {
   font-size: 24px;
 }
  .sidenav {
-     height: 100%; /* 100% Full-height */
-     width: 0; /* 0 width - change this with JavaScript */
-     position: fixed; /* Stay in place */
-     z-index: 1; /* Stay on top */
+     height: 100%;
+     width: 0;
+     position: fixed;
+     z-index: 1;
      top: 0;
      left: 0;
      background-color: rgba(83,125,198,0.93);
-     overflow-x: hidden; /* Disable horizontal scroll */
-     padding-top: 50px; /* Place content 60px from the top */
-     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+     overflow-x: hidden;
+     padding-top: 50px;
+     transition: 0.5s;
  }
 
  /* The navigation menu links */
@@ -178,7 +178,6 @@ footer {
   width: 100%;
   color: #fff;
   padding-bottom: 25px;
-
 }
   footer p {
     margin-left: 24px;
@@ -186,7 +185,6 @@ footer {
     width: 49%;
     float: left;
     position: relative;
-
   }
   footer .social {
     margin-right: 24px;
@@ -637,8 +635,6 @@ form {
 /*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
 /*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
 
-  input[type=text], input[type=tel], textarea {
-    width: 400px;
-  }
-
+input[type=text], input[type=tel], textarea {
+  width: 400px;
 }
