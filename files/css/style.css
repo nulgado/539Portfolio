@@ -131,6 +131,7 @@ section h3 {
   font-weight: bold;
   color: white;
 }
+
 .story {
   margin: 24px;
   color: #595959;
@@ -201,9 +202,6 @@ footer {
     text-decoration:none;
 }
 
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-
 .projects {
   width: 100%;
 }
@@ -262,7 +260,6 @@ footer {
   position: relative;
   top: 75px;
   font-size: 28px;
-
 }
 
 #project-1 {
@@ -328,9 +325,6 @@ section .wireframes img {
   width: 296px;
 }
 
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-
 form {
   display: block;
   text-align: center;
@@ -370,9 +364,7 @@ form {
     right: 30px;
     }
 
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-
+/* MEDIA QUERIES
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -440,12 +432,9 @@ form {
       width: 486px;
     }
 
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-
-  input[type=text], input[type=tel], textarea {
-    width: 300px;
-  }
+input[type=text], input[type=tel], textarea {
+  width: 300px;
+}
 
 /* Desktop */
 @media screen and (min-width: 1204px) {
@@ -631,9 +620,7 @@ form {
     width: 470px;
   }
 
-
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
-/*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*//*/*/
+}
 
 input[type=text], input[type=tel], textarea {
   width: 400px;
