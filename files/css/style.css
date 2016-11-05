@@ -613,11 +613,13 @@ input[type=text], input[type=tel], textarea {
   display: block;
   margin: auto;
   text-align: center;
+  padding-top: 60px;
+  width: 100%;
 }
   .adventures img {
     display: inline-block;
-    height: 450px;
-    width: 470px;
+    height: 354px;
+    width: 370px;
   }
 
 }
