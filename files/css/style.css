@@ -364,6 +364,24 @@ form {
     right: 30px;
     }
 
+    .adventures {
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding-top: 60px;
+      width: 100%;
+    }
+      .adventures img {
+        display: inline-block;
+        height: 354px;
+        width: 370px;
+      }
+
+.adventures h2 {
+  padding-top: 50px;
+  color: #6A96E0;
+}
+
 /* MEDIA QUERIES
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -450,7 +468,9 @@ input[type=text], input[type=tel], textarea {
     letter-spacing: 1px;
     font-size: 17px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #6A96E0;
   }
   #myTopnav ul {
     position: relative;
@@ -607,19 +627,6 @@ input[type=text], input[type=tel], textarea {
   section #wireframes img {
     height: 513px;
     width: 800px;
-  }
-
-.adventures {
-  display: block;
-  margin: auto;
-  text-align: center;
-  padding-top: 60px;
-  width: 100%;
-}
-  .adventures img {
-    display: inline-block;
-    height: 354px;
-    width: 370px;
   }
 
 }
