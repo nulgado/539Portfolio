@@ -67,7 +67,7 @@ span {
  }
 
  /* When you mouse over the navigation links, change their color */
- .sidenav a:hover, .offcanvas a:focus{
+ .sidenav a:hover, .offcanvas a:focus {
      background-color: hsl(218, 52%, 50%);
  }
 
@@ -131,6 +131,7 @@ section h3 {
   font-size: 21px;
   color: #6A96E0;
 }
+
 .jump {
   position: relative;
   top: 70px;
@@ -213,7 +214,7 @@ footer {
   }
   footer a, footer a:hover, footer a:active, footer a:visited {
     text-decoration:none;
-}
+  }
 
 .projects {
   width: 100%;
@@ -377,26 +378,25 @@ form {
     right: 30px;
     }
 
-    .adventures {
-      display: block;
-      margin: auto;
-      text-align: center;
-      padding-top: 60px;
-      width: 100%;
-    }
-      .adventures img {
-        display: inline-block;
-        height: 354px;
-        width: 370px;
-      }
-
-.adventures h2 {
-  padding-top: 110px;
-  color: #6A96E0;
+.adventures {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 60px;
+  width: 100%;
 }
-.adventures h4 {
-  color: white;
-}
+  .adventures img {
+    display: inline-block;
+    height: 354px;
+    width: 370px;
+  }
+  .adventures h2 {
+    padding-top: 110px;
+    color: #6A96E0;
+  }
+  .adventures h4 {
+    color: white;
+  }
 
 /* MEDIA QUERIES
 
@@ -644,9 +644,7 @@ input[type=text], input[type=tel], textarea {
     height: 513px;
     width: 800px;
   }
-
-}
-
-input[type=text], input[type=tel], textarea {
-  width: 400px;
+  input[type=text], input[type=tel], textarea {
+    width: 400px;
+  }
 }
