@@ -17,6 +17,19 @@ html, body {
   height: 100vh;
 }
 
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: block;
+  letter-spacing: 1px;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: #6A96E0;
+}
+
 /* The side navigation menu */
 span {
   position: absolute;
@@ -86,7 +99,7 @@ span {
   height: 100%;
 }
 
-header {
+.form {
   display: block;
   text-align: center;
   margin-left: auto;
@@ -258,7 +271,7 @@ footer {
 }
 #about.project h3 {
   position: relative;
-  top: 75px;
+  top: 125px;
   font-size: 28px;
 }
 
@@ -378,8 +391,11 @@ form {
       }
 
 .adventures h2 {
-  padding-top: 50px;
+  padding-top: 110px;
   color: #6A96E0;
+}
+.adventures h4 {
+  color: white;
 }
 
 /* MEDIA QUERIES
@@ -462,13 +478,13 @@ input[type=text], input[type=tel], textarea {
 
   #myTopnav {
     position: absolute;
-    top: 0;
+    top: 80px;
     width: 100%;
     display: block;
     letter-spacing: 1px;
     font-size: 17px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 40px;
     background-color: #6A96E0;
   }

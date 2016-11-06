@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="img/favicon.png" type=image sizes="16x16">
+  <link rel="icon" href="img/favicon.png" sizes="16x16">
   <title>Nicole Ulgado - Contact</title>
 
   <!-- Bootstrap -->
@@ -15,14 +15,19 @@
 </head>
 
 <body>
+  <header>
+    <img src="img/swan.png" alt="Swan" height="75" width="75">
+  </header>
   <div id="mySidenav" class="sidenav">
      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>   <!-- The "x" -->
+     <nav>
      <ul>
        <li><a href="index.html">Work</a></li>
        <li><a href="about.html">About</a></li>
        <li><a href="contact.html">Contact</a></li>
        <li><a href="blog.html">Blog</a></li>
      </ul>
+   </nav>
   </div>
 
   <!-- Opens the sidenav -->
@@ -30,27 +35,28 @@
 
   <!-- Topnav -->
   <div id="myTopnav" class="topnav">
+    <nav>
      <ul>
        <li><a href="index.html">Work</a></li>
        <li><a href="about.html">About</a></li>
        <li><a href="contact.html"><u>Contact</u></a></li>
        <li><a href="blog.html">Blog</a></li>
      </ul>
+   </nav>
   </div>
 
   <div class="top vertically-centered">
-    <header>
+    <div class="form">
       <h2>Contact Me</h2>
       <p>Let's talk and get to know each other, collaborate, or just say hi!<br>
       I would love to hear from you.</p>
-      <form action="" method="get">
+      <form method="get">
           <p>Name<input name="name" type="text" placeholder="First and last name" required autofocus></p>
           <p>Email<input name="email" type="text" placeholder="example@domain.com"></p>
           <p>Phone<input name="phone" type="tel" placeholder="(---) --- ----"></p>
           <p>Note &nbsp;<textarea rows="3" placeholder="Leave me a message :)"></textarea></p>
           <input type="submit" value="Submit"/>
       </form>
-    </header>
     </div>
   </div>
 
@@ -65,16 +71,6 @@
 
   <script src="js/sidenav.js"></script>
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-86173495-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>
